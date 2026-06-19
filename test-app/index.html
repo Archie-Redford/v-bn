@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Test App</title>
+  <style>
+    body { font-family: system-ui, sans-serif; display: flex; flex-direction: column; align-items: center; margin-top: 4rem; }
+    #status { font-size: 1.5rem; margin-top: 1rem; }
+    #status.ok { color: green; }
+    #status.fail { color: red; }
+  </style>
+</head>
+<body>
+  <h1>Test App</h1>
+  <button id="check">Run smoke test</button>
+  <div id="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
